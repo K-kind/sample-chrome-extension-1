@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "ツイッターアイコン復元",
+  "version": "1.0",
+  "description": "ツイッターのアイコンを元に戻します",
+  "content_scripts": [
+    {
+      "js": ["script.js"],
+      "matches": ["https://*.twitter.com/*"]
+    }
+  ]
+}
